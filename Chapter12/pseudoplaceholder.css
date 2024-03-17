@@ -1,0 +1,5 @@
+/* 플레이스홀더 가상 요소 */
+input:required::placeholder {
+  color: darked;
+  background-color: yellow;
+}
