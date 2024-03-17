@@ -1,0 +1,28 @@
+/* 모든 요소 선택 */
+* {
+  font-weight: bold;
+  color: plum;
+}
+
+/* 태그 선택자 */
+p.blue {
+  color:slateblue
+}
+
+.blue.dark {
+  color: mediumblue
+}
+
+p.blue.dark {
+  color: darkblue;
+}
+
+/* id는 페이지 상에서 요소마다 고유해야 함 */
+#red {
+  color: tomato
+}
+
+/* 그룹 선택자 */
+span, .dark, #red {
+  text-decoration: underline;
+}
